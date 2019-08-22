@@ -1,0 +1,92 @@
+
+
+main{
+   width: 960px;
+   height: auto;
+   background-color:#FFA07A;	
+   margin: 10px auto;
+   text-align: center;
+   padding: 5px 10px;
+   margin-bottom: 5px;
+   margin-top:5px;
+
+}
+
+header {
+	height: 150px;
+	text-align: center;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: #D8BFD8;
+
+}
+
+ nav{
+ 	height: 40px;
+ 	background-color: #F0E68C;
+ 	 text-align: center;
+ 	 padding: 5px;
+ 	 margin-top: 10px;
+     margin-bottom: 10px;
+}
+
+ #noticias{
+ 	height: auto;
+ 	background-color: #F08080;
+ 	 padding: 10px;
+ 	 display: table;
+}
+
+footer{
+	height: 50px;
+    background-color: #B0E0E6;
+    text-align: center;
+    padding: 5px;
+       margin-top: 10px;
+   margin-bottom: 10px;
+}
+body{
+	background-color: #FFDAB9;
+}
+#texto01{
+	width: 280px;
+	padding:10px;
+	background-color: #E9967A;
+	float: left;
+	margin-left: 10px;
+}
+#texto02{
+	width: 280px;
+	padding:10px;
+	background-color:#E9967A;
+	float: left;
+	margin-left: 10px;
+	
+}
+#texto03{
+	width: 280px;
+	padding:10px;
+	background-color:#E9967A;
+	float: left;
+	margin-left: 10px;
+
+}
+#texto04{
+	width: 920px;
+	padding:5px;
+	background-color: #E9967A;
+	margin-bottom:10px;
+	margin-top:10px;
+	float: left;	
+}
+
+#escola{
+	width: 300px;
+	height:150px;
+	float:right;
+	border-style: double;
+}
+
+
+

@@ -1,0 +1,104 @@
+	main{
+		width: 960px;
+	    margin: 10px auto;
+	   padding: 5px 10px;
+	   
+	}
+	header {
+	
+	font-family:"Monotype Corsiva";
+	color: #006400;
+	height: 80px;
+	padding:5px;
+	margin-top:10px;
+	font-size: 38px;
+
+
+}
+	 nav{
+	 	height: 35px;
+	 	 text-align: right;
+	 	 padding: 5px;
+	 	 margin-top: 10px;
+	     margin-bottom: 10px;
+	    font-size: 20px;
+	    color: gray;
+	    font-family: Verdana;
+
+	}
+	#textos{
+		 height: auto;
+	 	 padding: 10px;
+	 	 display: table;
+	}
+  footer{
+  	height: 50px;
+  	padding: 10px;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  	color: gray;
+  	text-align: left;
+
+  }
+
+	#txt1{
+		width: 220PX;
+		padding:10px;
+		float: left;
+		margin-top: 26px;
+		margin-bottom: 10px;
+
+		
+	}
+	#txt2{
+		width: 220PX;
+		padding:10px;
+		float: left;
+		margin-top: 26px;
+		margin-bottom: 10px;
+
+		
+	}
+	#txt3{
+		width: 220PX;
+		padding:10px;
+		float: left;
+		margin-top: 26px;
+		margin-bottom: 10px;
+
+	}
+	#txt4{
+		width: 220PX;
+		padding:10px;
+		float: left;
+		margin-top: 26px;
+		margin-bottom: 10px;
+	}
+	#banner{
+
+       align-content: center;
+
+	}
+	#img1{
+		width: 220px;
+		height:200px;
+		
+	
+	}
+	#img2{
+		width:220px;
+		height:200px;
+		
+		
+	}
+	#img3{
+		width: 220px;
+		height:200px;
+		
+	}
+	#img4{
+		width: 220px;
+		height:200px;
+		
+		
+	}

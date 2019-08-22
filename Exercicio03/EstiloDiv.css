@@ -1,0 +1,48 @@
+
+p {
+	font-family: "Verdana,Arial,Courier New";
+
+	/*tamanho da fonte*/
+	font-size: 19px;
+	text-align: justify;
+	color: #4B0082;
+   }
+
+h1 {
+	text-align: center;
+	font-size: 36px;
+   }
+
+ul {
+	font-style: italic;
+	font-size: 17px;
+   }
+   #logo{
+
+    margin: 10px 10px auto;
+    width: 200px;
+    height: 61px;
+    text-align:center;
+   }
+
+   #principal{
+
+   	margin: 10px 10px auto;
+   	width: 100%;
+   	max-width: 960px;
+   
+   }
+
+   header{
+ 	font-size:18px; 
+ 	color:red;
+ 	text-align:center;
+ }
+   #secao01{
+ 	width: 940px;
+ 	position: relative;
+ 	background-color: grey;
+ 	padding:10px; 
+ 	margin: 10px;
+
+ }
