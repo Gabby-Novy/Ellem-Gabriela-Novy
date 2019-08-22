@@ -5,27 +5,100 @@
 	<title> Projeto Web Pages</title>
 	<meta charset="utf-8">
 
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="Envio_atvds/css/Estilo.css">
+
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
+	<script src="script/script.js"></script>
+	<style>
+.mySlides {display:none;}
+</style>
+
 </head>
-<body>
-	
-	<h1> °°°°°°°° Projeto-Ellem Novy °°°°°°°°</h1>
+<body background="Envio_atvds/imagens/kkj.jpg" >
+
+
+
+
+ 
+	<h1 style="color: white" align="center"> °°°°°°°° Projeto-Ellem Novy °°°°°°°°</h1>
 	<br>
 
-	<img src="dog.jpg">
 
 
-         <h1>Exercícios</h1><br>
-			<ul>
-				<li><a href="Exercicio01/Exemplo2.html">Exercício 01</a></li>
-				<li><a href="#">Exercício 02</a></li>
-				<li><a href="#">Exercício 03</a></li>
-				<li><a href="#">Exercício 04</a></li>
-				<li><a href="#">Exercício 05</a></li>
-				<li><a href="#">Exercício 06</a></li>
-			</ul>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="Envio_atvds/imagens/dog2.jpg" style="width:100%">
+  <img class="mySlides" src="Envio_atvds/imagens/dog3.jpg" style="width:100%">
+  <img class="mySlides" src="Envio_atvds/imagens/dog.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+<div class="w3-container">
+  <h2 style="color: white">Programação</h2>
+  <p style="color: white">Passe o mause sobre "Linguagem" e "Código":</p>
+
+  <div class="w3-dropdown-hover"> <p style="color: white">Linguagens</p>
+    <div class="w3-dropdown-content w3-card-4" style="width:250px">
+      <img src="Envio_atvds/imagens/td.jpg" alt="London"  style="width:100%">
+      <div class="w3-container">
+        <p>Aqui você pode ver alguns tipos de linguagens ultilizadas pelos programadores.</p>
+        <p>Há muitas variedades.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="w3-dropdown-hover"> <p style="color: white">Código</p>
+    <div class="w3-dropdown-content w3-card-4" style="width:250px">
+      <img src="Envio_atvds/imagens/put.jpeg" alt="Tokyo" style="width:100%">
+      <div class="w3-container">
+        <p>Você está vendo uma imagem de um código em HTML.</p>
+        <p>Algo muito complexo,mas interessante.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<br><br>
+
+	
+
+	<ul>
+	 <li style="color: white"><a href="Envio_atvds/Menu.html"><h1 style="color: white">Clique para ir ao menu das atividades</h1></a></li>
+
+	 <br><br>
+
+	 <li style="color: white"><a href="Envio_atvds/Dados.html"><h1 style="color: white">Dados sobre mim</h1></a></li>
+	</ul>
+
+
+	<br><br><br><br>
+
+<footer style="color: white"><br>2019.Entrega de Atividades.Criado por ELLEM GABRIELA NOVY. Para o Instrutor Denilson</footer>
 
 
 
